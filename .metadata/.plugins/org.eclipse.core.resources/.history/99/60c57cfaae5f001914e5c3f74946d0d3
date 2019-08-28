@@ -1,0 +1,10 @@
+package com.spring.hibernate.sample.samplejpa;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Customer {
+
+	
+	
+}

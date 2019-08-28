@@ -1,0 +1,17 @@
+package com.spring.hibernate.sample.samplejpa;
+
+import org.hibernate.annotations.common.util.impl.LoggerFactory;
+import org.slf4j.Logger;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SampleJpaApplication {
+
+	private static final Logger log = LoggerFactory.getLogger(SampleJpaApplication.class);
+	
+	public static void main(String[] args) {
+		SpringApplication.run(SampleJpaApplication.class, args);
+	}
+
+}
